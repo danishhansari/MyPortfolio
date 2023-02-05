@@ -555,7 +555,7 @@
   
     .grid {
       grid-template-columns: 1fr;
-      grid-template-rows: repeat(6, 250px);
+      grid-template-rows: repeat(6, 450px);
     }
   
     .grid .project {
