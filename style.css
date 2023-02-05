@@ -20,7 +20,15 @@
     color: inherit;
     font: inherit;
   }
-  
+  .fa-brands{
+    font-size: 1.4em;
+  }
+  .fa-linkedin{
+    color: #0a66c2;
+  }
+  .fa-twitter{
+    color: #00acee;
+  }
   /* KEYFRAMES */
   @keyframes fade-up {
     0% {
