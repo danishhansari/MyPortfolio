@@ -23,8 +23,11 @@
   .fa-brands{
     font-size: 1.4em;
   }
-  .fa-linkedin{
-    color: #0a66c2;
+  .fa-linkedin-in{
+    color: white;
+    padding: 3px;
+    border-radius: 2px;
+    background: #0a66c2;
   }
   .fa-twitter{
     color: #00acee;
