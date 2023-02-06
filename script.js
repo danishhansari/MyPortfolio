@@ -1,7 +1,5 @@
-
 // FADE
 const fadeEl = document.querySelector('.fade');
-
 let hasScrolled = false;
 window.addEventListener('scroll', () => {
   if (!hasScrolled) {
