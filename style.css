@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    vertical-align: middle;
   }
   
   a {
@@ -139,8 +140,8 @@
     text-transform: uppercase;
     color: #000;
     letter-spacing: 0.5px;
-    padding: 10px 20px;
-    border-radius: 5000px;
+    /* padding: 10px 20px; */
+    border-radius: 400px;
     transition: all 0.3s;
   }
   
@@ -149,18 +150,32 @@
   }
   
   .btn--contact {
+    padding: .5em 1.5em;
+    background: white;
+    color: black;
+    border-radius: 15px;
     animation: fade-down 0.5s 0.4s backwards;
+    transition: all .3s;
+  }
+  .btn--contact:hover,
+  .btn--contact:focus{
+    background: #000;
+    color: white;
   }
   
   .btn--download {
     padding: 16px 32px;
     font-size: 16px;
     position: fixed;
-    bottom: 27px;
-    left: calc(50% - 96px);
-    z-index: 100;
+    bottom: 37px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 10;
     box-shadow: 0 6px 23px rgba(0, 0, 0, 0.45);
     animation: fade-up 0.5s 0.4s backwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   /* MAIN */
@@ -344,7 +359,7 @@
     opacity: 0;
     position: absolute;
     bottom: 0;
-    z-index: 100;
+    z-index: 10;
     text-align: left;
     padding: 24px;
     transform: translateY(10px);
@@ -407,10 +422,10 @@
     transform: scale(1.15);
   }
   
-  .link {
+  /* .link {
   
   }
-  
+   */
   .link-img {
     width: 20px;
     height: 20px;
